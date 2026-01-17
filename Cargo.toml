@@ -1,0 +1,12 @@
+[package]
+name = "pure-simd-rs"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+default = ["std"]
+
+# enables the use of the standard library for CPU feature detection on supported platforms
+std = []
+
+[dependencies]
